@@ -7,3 +7,7 @@ I will be searching for more ways/ updated ways.
 
 WARNING:
 This may be against your school TOS.
+
+
+FOXMOSS it would be nice if you put the proxy code into your site fishme.me
+That way they can access anything.
