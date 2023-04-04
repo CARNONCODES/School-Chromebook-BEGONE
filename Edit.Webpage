@@ -1,0 +1,1 @@
+javascript:var enabled = false; if(document.body.contentEditable == 'true'){enabled=true}; enabled = !enabled; document.body.contentEditable = 'false'; if(enabled){document.body.contentEditable = 'true'}; document.designMode = 'off'; if(enabled) {document.designMode = 'on'}; void 0
