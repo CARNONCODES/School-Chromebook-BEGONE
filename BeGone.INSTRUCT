@@ -1,0 +1,20 @@
+Go to chrome://extensions
+Find your schools blocking extensions such as Cisco Umbrella, GoGuardian, etc...
+Once you find what blockers they use, click developer mode at the top of the extensions page.
+At the bottom of all the extensions a id should pop up.
+Next click on this link chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json
+Once you are on this link copy the code below and paste it in the console. Ctrl + Shift + C. Then click console NOTE: DO NOT PRESS ENTER YET
+chrome.management.setEnabled('extensionid', false)
+once that code is in the console go back to chrome://extensions and copy the desired extension ID.
+Then paste that ID in the the spot in the code above that says 'extensionid'.
+Now you may press enter. You should see your extension disapear. To turn it back on put true instead of false.
+You can do this to any extension you want.
+
+I AM NOT RESPONSIBLE FOR ANY THING THAT HAPPENS BECAUSE OF THIS CODE. I AM JUST MAKING IT EASIER TO USE.
+
+TO flood your google history use this code and paste it in any google apps console.
+javascript:var num=prompt("How Times Do You Want This Page");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("Flooding Successful!\n "+window.location.href+" \nIs Now In Your History "+num+(num==1?" time.":" Times. \nDeveloped By: Schoolcheats on  YT"))}
+
+Enjoy!
+
+Sorry about the bad description.
