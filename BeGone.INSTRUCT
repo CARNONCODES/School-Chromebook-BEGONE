@@ -1,20 +1,15 @@
-Go to chrome://extensions
-Find your schools blocking extensions such as Cisco Umbrella, GoGuardian, etc...
-Once you find what blockers they use, click developer mode at the top of the extensions page.
-At the bottom of all the extensions a id should pop up.
-Next click on this link chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json
-Once you are on this link copy the code below and paste it in the console. Ctrl + Shift + C. Then click console NOTE: DO NOT PRESS ENTER YET
-chrome.management.setEnabled('extensionid', false)
-once that code is in the console go back to chrome://extensions and copy the desired extension ID.
-Then paste that ID in the the spot in the code above that says 'extensionid'.
-Now you may press enter. You should see your extension disapear. To turn it back on put true instead of false.
-You can do this to any extension you want.
+This is the new way on how to get rid of pesky extensions that your school blocks. 
+1. Go to: chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json
 
-I AM NOT RESPONSIBLE FOR ANY THING THAT HAPPENS BECAUSE OF THIS CODE. I AM JUST MAKING IT EASIER TO USE.
+2. Copy This Code:
+  chrome.management.getAll(function(extensions) {
+  for(var i = 0; i < extensions.length; i++) {
+    chrome.management.setEnabled(extensions[i].id, false);
+  }
+});
 
-TO flood your google history use this code and paste it in any google apps console.
-javascript:var num=prompt("How Times Do You Want This Page");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("Flooding Successful!\n "+window.location.href+" \nIs Now In Your History "+num+(num==1?" time.":" Times. \nDeveloped By: Schoolcheats on  YT"))}
+3. Go back to link.
+4. Ctrl+Shift+J
+5. Paste code in the console and press enter.
 
-Enjoy!
-
-Sorry about the bad description.
+NOTE: If you did it right it should take away all extensions. This code was written by AI. Not written By me. It is crazy what AI can do these days.
