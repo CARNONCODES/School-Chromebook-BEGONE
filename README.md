@@ -1,9 +1,10 @@
-# School-Chromebook-BEGONE
-These codes were created by "Bypassi", FoxMoss, and others. I am not responsible for any of these codes going wrong and getting you X-Communicated.  XD
+NEW EASIER WAY FOUND!!!
 
-All of these codes will go in the console of various tabs. Some of the codes go in a specific tab make sure to read instructions or they will not work.
+This way was written by AI!
 
-I will be searching for more ways/ updated ways.
+Go to Begone.INSTRUCT
 
 WARNING:
 This may be against your school TOS.
+
+I AM NOT RESPONSIBLE FOR WHATEVER HAPPENS TO YOU IF YOU GET IN TROUBLE.
